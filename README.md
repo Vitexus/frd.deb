@@ -3,6 +3,10 @@
 FreeRapid is an easy to use Java downloader that supports downloading from Rapidshare, Youtube, Facebook, Picasa and other file-sharing services, include the new ones like mega.co.nz.
 Simply copy and paste your links from a browser to this application. FreeRapid Downloader will handle the rest itself. No more clicking or uncomfortable waiting.
 
+
+![FreeRapid downloader](https://raw.githubusercontent.com/Vitexus/frd.deb/master/screenshot.png)
+
+
 Main Features
 -------------
 
@@ -27,12 +31,22 @@ Main Features
 See [FreeRapid Downloader](https://wordrider.net/freerapid/index.html) homepage for more info.
 
 
+How to install ?
+----------------
+
+Build your own package or use repo 
+
+```
+wget -O - http://v.s.cz/info@vitexsoftware.cz.gpg.key | sudo apt-key add -
+echo deb http://v.s.cz/ stable main | sudo tee /etc/apt/sources.list.d/vitexsoftware.list
+sudo apt update
+sudo apt install freerapid
+```
 
 How to build ?
 --------------
 
-
-
+On debian please run:
 
 
 ```
