@@ -1,13 +1,4 @@
-frd			usr/bin
-freerapid.desktop	usr/share/applications/
-freerapid/*		usr/share/
-
-
-#keystore-explorer/kse/res/icons/kse.svg			usr/share/icons/hicolor/scalable/apps
-#keystore-explorer/kse/res/icons/kse_128.png		usr/share/icons/hicolor/128x128/apps
-#keystore-explorer/kse/res/icons/kse_16.png		usr/share/icons/hicolor/16x16/apps
-#keystore-explorer/kse/res/icons/kse_256.png		usr/share/icons/hicolor/256x256/apps
-#keystore-explorer/kse/res/icons/kse_32.png		usr/share/icons/hicolor/32x32/apps
-#keystore-explorer/kse/res/icons/kse_48.png		usr/share/icons/hicolor/48x48/apps
-#keystore-explorer/kse/res/icons/kse_512.png		usr/share/icons/hicolor/512x512/apps
-
+frd				usr/bin
+frd.desktop			usr/share/applications/
+FreeRapid-0.9u4/*		usr/share/freerapid
+FreeRapid-0.9u4/frd.png		usr/share/icons/hicolor/64x64/apps

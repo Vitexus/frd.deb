@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
-Exec=frd -caption %c %i %U
-Icon=freerapid
+Exec=frd
+Icon=frd
 Terminal=false
 MimeType=application/metalink+xml;application/x-bittorrent;
 Name=FreeRapid
