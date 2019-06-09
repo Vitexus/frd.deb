@@ -9,7 +9,6 @@ export FORCE_SOURCE_DATE=1
 override_dh_auto_build:
 	sed -i 's/haltonfailure="yes"/haltonfailure="no"/' build.xml 
 	ant -DuseExternalJarsOnLinux=true build
-	mv FreeRapid-0.9u4 freerapid
 	chmod +x freerapid/frd.sh
 
 override_dh_auto_install:
