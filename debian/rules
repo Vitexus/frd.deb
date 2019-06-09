@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+# You must remove unused comment lines for the released package.
+export DH_VERBOSE = 1
+#export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8
+export FORCE_SOURCE_DATE=1
+
+override_dh_auto_build:
+	sed -i 's/haltonfailure="yes"/haltonfailure="no"/' build.xml 
+	ant -DuseExternalJarsOnLinux=true build
+	mv FreeRapid-0.9u4 freerapid
+	chmod +x freerapid/frd.sh
+
+override_dh_auto_install:
+	dh_auto_install
+
+%:
+	dh $@ --with javahelper --buildsystem=ant

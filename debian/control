@@ -1,0 +1,20 @@
+Source: freerapid
+Build-Depends: debhelper (>= 7.0.50~),po-debconf,ant,default-jdk | java-compiler | java-sdk,javahelper
+Standards-Version: 3.8.4
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Uploaders: Vitex <vitex@hippy.cz>
+Priority: optional
+Homepage: https://wordrider.net/freerapid/
+
+Package: freerapid
+Depends: ${misc:Depends},default-jdk
+Architecture: all
+Section: net
+Priority: optional
+Description: easy to use downloader
+ FreeRapid is an easy to use Java downloader that supports downloading from 
+ Rapidshare, Youtube, Facebook, Picasa and other file-sharing services, 
+ include the new ones like mega.co.nz.
+ Simply copy and paste your links from a browser to this application. 
+ FreeRapid Downloader will handle the rest itself. No more clicking or 
+ uncomfortable waiting

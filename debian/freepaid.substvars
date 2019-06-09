@@ -1,0 +1,4 @@
+java:Depends=flexibee,  libcommons-logging-java,  libjna-java
+java:Recommends=
+misc:Depends=
+misc:Pre-Depends=
